@@ -3,10 +3,11 @@ from mysql.connector import errorcode
 import Student3
 import Manager3
 from storedProc import get_all_users
+import os
 
 # Global connection variables
-uname = "AggieAdmin"
-pname = "AggiePride"
+uname = os.environ.get("uname")
+pname = os.environ.get("pname")
 
 # Database Connection
 try:
