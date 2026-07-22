@@ -19,13 +19,13 @@ User authentication and role assignment are handled through a MySQL database, an
 
 ## Project Structure
 
-'''
-Login3.py # Handles authentication and routes users to the correct role-based menu
+
+``` Login3.py # Handles authentication and routes users to the correct role-based menu
 Student3.py # Student-facing menu and functionality
 Manager3.py # Manager-facing menu and functionality (rosters, student records)
 storedProc.py # Python wrappers for calling MySQL stored procedures
 schema.sql # Database schema and stored procedure definitions
-'''
+```
 
 ## How to Run
 
